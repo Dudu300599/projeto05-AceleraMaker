@@ -49,4 +49,5 @@ Abaixo, registros que comprovam o funcionamento correto do cruzamento de dados, 
 ![Estatísticas](assets/estatisticas.png)
 
 ### 5. Execução no Mainframe
-![Log de Sucesso RC=0000](assets/execucao.gif)
+O arquivo `execucao.mp4` encontra-se na pasta `assets/` deste repositório.
+▶️ Clique aqui para acessar: [execucao.mp4](assets/execucao.mp4)

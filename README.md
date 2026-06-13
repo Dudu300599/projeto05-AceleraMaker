@@ -31,21 +31,22 @@ Este projeto consiste em um programa robusto em COBOL desenvolvido para o proces
 4. Os relatórios gerados estarão disponíveis nos respectivos datasets (`HERC01.CLIENTES.OUT`, `HERC01.RELATOR.TXT`, `HERC01.ERROS.TXT` e `HERC01.ESTAT.TXT`).
 
 ## Evidências de Execução
-Abaixo, registros que comprovam o funcionamento correto do cruzamento de dados, tratamento de exceções (*Stress Test*) e estatísticas de processamento:
+Abaixo, registros que comprovam o funcionamento correto do cruzamento de dados, tratamento de exceções e estatísticas de processamento:
 
 ### 1. Arquivos de Entrada
 ![Arquivos de Entrada (Clientes)](assets/input_clientes.png)
 
 ![Arquivos de Entrada (Transações)](assets/input_transacoes.png)
 
-### 2. Relatório: Saldos Atualizados (`CLIENTES.OUT`)
-![Saldos Atualizados](assets/out_saldos.png)
+### 2. Relatório: Saldos Atualizados (`CLIENTES_OUT.TXT`)
+![Saldos Atualizados](assets/output_clientes.png)
 
 ### 3. Relatório: Tratamento de Exceções (`ERROS.TXT`)
-![Log de Erros](assets/out_erros.png)
+![Log de Erros](assets/erros.png)
 
 ### 4. Relatório: Estatísticas e Movimentação (`ESTAT.TXT` / `RELATOR.TXT`)
-![Estatísticas e Extrato](assets/out_relatorios.png)
+![Relatório](relatorio.png)
+![Estatísticas](estatisticas.png.png)
 
 ### 5. Execução no Mainframe (Spool / JES2)
 ![Log de Sucesso RC=0000](assets/execucao.gif)

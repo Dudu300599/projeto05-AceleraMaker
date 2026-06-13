@@ -46,7 +46,7 @@ Abaixo, registros que comprovam o funcionamento correto do cruzamento de dados, 
 
 ### 4. Relatório: Estatísticas e Movimentação (`ESTAT.TXT` / `RELATOR.TXT`)
 ![Relatório](relatorio.png)
-![Estatísticas](estatisticas.png.png)
+![Estatísticas](estatisticas.png)
 
 ### 5. Execução no Mainframe (Spool / JES2)
 ![Log de Sucesso RC=0000](assets/execucao.gif)

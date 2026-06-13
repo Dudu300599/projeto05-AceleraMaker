@@ -10,7 +10,7 @@ Este projeto consiste em um programa robusto em COBOL desenvolvido para o proces
   - Tipos de transações inválidos (diferentes de 'C' ou 'D').
   - Saques rejeitados por saldo insuficiente.
   - Tratamento de Clientes Inexistentes (Prevenção de falso-positivo de fim de arquivo com uso de `HIGH-VALUES`).
-- **Geração Múltipla de Relatórios**: Produz 4 arquivos de saída distintos (`CLIENTES.OUT`, `RELATOR.TXT`, `ERROS.TXT` e `ESTAT.TXT`) segregando saldos atualizados, históricos de movimentos, logs de rejeição e estatísticas de processamento.
+- **Geração Múltipla de Relatórios**: Produz 4 arquivos de saída distintos (`CLIENTES_OUT.TXT`, `RELATOR.TXT`, `ERROS.TXT` e `ESTAT.TXT`) segregando saldos atualizados, históricos de movimentos, logs de rejeição e estatísticas de processamento.
 
 ## Tecnologias
 - **Linguagem**: COBOL (OS/VS COBOL / ANSI 74)
@@ -33,8 +33,10 @@ Este projeto consiste em um programa robusto em COBOL desenvolvido para o proces
 ## Evidências de Execução
 Abaixo, registros que comprovam o funcionamento correto do cruzamento de dados, tratamento de exceções (*Stress Test*) e estatísticas de processamento:
 
-### 1. Arquivos de Entrada (Massa de Teste de Estresse)
-![Arquivos de Entrada (Clientes e Transações)](assets/in.png)
+### 1. Arquivos de Entrada
+![Arquivos de Entrada (Clientes)](assets/input_clientes.png)
+
+![Arquivos de Entrada (Transações)](assets/input_transacoes.png)
 
 ### 2. Relatório: Saldos Atualizados (`CLIENTES.OUT`)
 ![Saldos Atualizados](assets/out_saldos.png)

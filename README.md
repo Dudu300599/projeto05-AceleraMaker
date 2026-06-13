@@ -49,5 +49,4 @@ Abaixo, registros que comprovam o funcionamento correto do cruzamento de dados, 
 ![Estatísticas](assets/estatisticas.png)
 
 ### 5. Execução no Mainframe
-O arquivo `execucao.mp4` encontra-se na pasta `assets/` deste repositório.
-▶️ Clique aqui para acessar: [execucao.mp4](assets/execucao.mp4)
+O arquivo execucao.mp4, contendo a gravação da execução do projeto no ambiente Mainframe, encontra-se disponível na pasta assets/ deste repositório. Para visualizá-lo, é necessário realizar o download do arquivo.
